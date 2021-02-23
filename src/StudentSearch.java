@@ -20,8 +20,8 @@ public class StudentSearch {
       }
 
 	public ArrayList<Student> findAll(ArrayList<Student> students, String name) throws Exception {
-   ArrayList<Student> result = new ArrayList<Student>();
-   for (Student student: students)
+   ArrayList<Student> result = new ArrayList<Student>();	
+   for (Student student: students)				// Searching for Students
        if (student.getName().equals(name)) {
            result.add(student);
        }
